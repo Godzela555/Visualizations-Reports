@@ -1,43 +1,41 @@
-# Presentation
+# 📊 Data Science & Business Intelligence Portfolio
+Welcome to my portfolio! I am a Data professional with a Master's in Data Science and Analytics, specializing in building end-to-end data pipelines, ETL automation, and highly actionable business dashboards. 
 
-* HosGency
+Below is a collection of my projects ranging from automated data engineering to exploratory data analysis (EDA).
 
-This presentation used for pitching at SIP internship, Bangkok Bank
+---
 
-# Visualizations
+## 🏆 Featured Project: End-to-End Retail Business Intelligence Pipeline
+**Tools Used:** PostgreSQL, n8n (ETL Automation), Metabase, Data Visualization (Power BI/Tableau)
 
-* Average_Rented_Bike
+**Project Overview:**
+Designed and deployed a complete Business Intelligence solution to analyze retail sales performance (Adidas dataset). This project encompasses the entire data lifecycle, from database extraction to executive dashboarding.
 
-This plot consists of two bar charts visualize bike rental trends in 2018: the top chart illustrates the average rented bike count for weekday throughout 2018, distinguishing holidays in orange to highlight holiday, while the bottom chart focuses on adjacent day, display the average rented bike count for each adjacent day to showcase daily variations in rental demand within a specific time. The purpose of these charts is to analyze bike rental behavior by weekday, specifically no holiday and holidays, allowing for the identification of recurring trends and the influence of holidays on bike usage.
+*   **ETL & Data Engineering (n8n):** Built an automated workflow to ingest raw relational data from a PostgreSQL database. Merged distinct `Product`, `Retailers`, and `Sales` tables into a unified dataset.
+*   **Data Cleaning:** Engineered a cleaning node to resolve data type inconsistencies (e.g., converting `Operating_profit` from String to Integer) to ensure downstream data integrity.
+*   **Executive Dashboards (Metabase & BI Tools):** Developed interactive dashboards to track KPIs including $148M+ Total Revenue and 2.4M+ Total Units Sold. 
+*   **Business Insights:** Visualized revenue distribution across sales channels (Online, Outlet, In-store), evaluated top-performing retailers (West Gear, Foot Locker, Sports Direct), and tracked operating profit by geographical region.
 
-* Cyclistic_Customer_Bike_Usage
+---
 
-This heatmap visualizes customer bike usage by depicting trip counts between different zip code start and end locations, with color intensity representing the frequency of trips between those zones. The primary purpose of this plot is to illustrate the flow of bike rentals across various zip codes, effectively showcasing popular routes and areas of concentrated bike usage within the city's transportation network each day.
+## 📈 Exploratory Data Analysis & Visualization Projects
 
-* Minnesota's_Traffic
+### 🚲 Urban Mobility: Bike Share Demand Analysis
+*   **Seoul Bike Rental 2018:** Created small multiple bar charts to analyze hourly bike rental demand across weekdays and seasons (Autumn, Spring, Summer, Winter). Identified peak rental hours and seasonal usage variations.
+*   **Average Rented Bike Patterns:** Visualized daily and holiday rental patterns. Differentiated weekday usage from holiday usage to identify recurring trends and predict future rental demand.
+*   **Cyclistic Customer Bike Usage:** Developed a spatial heatmap depicting trip counts between start and end zip codes. Mapped the flow of rentals to showcase popular routes and areas of high transportation network strain.
 
-This plot is a combination of charts analyzing traffic volumes: the top line chart displays the overall traffic volume trend across months in 2018 to show seasonal patterns, the bottom left bar chart breaks down traffic volume by weather type to assess weather's influence, and the bubble chart on the bottom right highlights traffic volume on national holidays in the United States. Also, this plot included traffic volume each day in hour. The collective purpose is to comprehensively examine factors affecting traffic volume, including monthly trends, time, weather conditions, and national holidays, to understand and predict traffic patterns based on these variables.
+### 📱 Social Media Insights: TikTok Claim Classification (EDA)
+Performed Exploratory Data Analysis (EDA) on a TikTok dataset to identify features for a machine learning classification model.
+*   Investigated the correlation between video views, likes, comments, and duration.
+*   Analyzed the distribution of "claims" vs. "opinions" and cross-referenced this with author ban statuses to understand content moderation patterns.
 
-* Seoul_Bike_Rental_2018
+### 🌍 Geospatial & Environmental Analysis
+*   **Lightning Strikes in the U.S.:** Mapped historical lightning strike data using scatter plots and density maps. Highlighted geographic clusters, year-over-year trends, and maximum strike zones to identify high-risk areas.
+*   **Global CO2 Emissions:** Designed a choropleth world map tracking CO2 emissions per capita from 2000 to 2011. Visualized global disparities and carbon footprint distributions on a national scale.
 
-This series of small multiple bar charts illustrates the average bike rentals per hour on weekdays in Seoul during 2018, segmented by season (Autumn, Spring, Summer, Winter) and displayed across Monday to Friday (spread across multiple images). The aim of these charts is to facilitate a detailed comparison of hourly bike rental patterns across different weekdays and seasons, enabling the identification of peak rental hours, seasonal variations in bike usage, and weekday-specific trends in demand for bike rentals.
+### 🚗 Traffic & Infrastructure
+*   **Minnesota Traffic Volume:** Built a combined visualization suite analyzing monthly seasonal traffic patterns, the impact of varying weather conditions, and hourly traffic dips/spikes during US National Holidays.
 
-* Lightning_Strike_by_Years
-
-This map of the United States overlays a scatter plot showing the locations of lightning strikes categorized by year, accompanied by metrics summarizing the total, average, and maximum number of strikes. The plot's purpose is to geographically visualize the distribution of lightning strikes across the US over different years and to provide key statistical summaries, aiding in understanding the spatial and temporal patterns of lightning occurrences.
-
-* Lightning_Strikes_U.S
-
-This map of the United States also uses a scatterplot to represent the density of lightning strikes across different the US, with color intensity indicating areas of higher lightning strike concentration. The primary purpose of this plot is to highlight and visualize geographic areas that experience a greater frequency of lightning strikes in the US, revealing spatial clusters and patterns in lightning activity across the country.
-
-* Geo_Map_Chart C02.pdf
-
-This world map is a choropleth map where countries are colored according to their CO2 emissions per capita between 2000 and 2011, using a color scale to represent varying levels of emissions. The plot's objective is to visually represent and compare global disparities in CO2 emissions per capita across different countries, providing a clear overview of the geographic distribution of carbon footprint on a national scale during that period.
-
-* Airbnb_Athens
-
-This plot combines a map displaying the locations of Airbnb rental properties in Athens, Greece with a bar chart that presents the average price of Airbnb rentals for each neighbourhood. The combined purpose is to visualize the spatial distribution of Airbnb listings and to simultaneously compare average rental prices across different neighbourhoods, allowing for insights into pricing variations and popular rental areas within the city.
-
-* EDA_TikTok
-
-These plots present an Exploratory Data Analysis (EDA) of a claim classification dataset: the first page features a scatter plot showing the correlation between TikTok video views and likes, a pie chart illustrating the distribution of claims versus opinions, and a bar chart analyzing author ban status, while the second page further investigates video comment count, like count, view count and duration. The overarching purpose of these plots is to perform an initial exploration of the claim classification dataset, examining the relationships between various video features and author attributes with the classification of content as claims or opinions, thereby gaining preliminary insights into the data's characteristics and potential features for a classification model.
+### 🏡 Real Estate: Airbnb Pricing (Athens, Greece)
+*   Combined spatial mapping with bar charts to analyze Airbnb rental properties across Athens. Correlated geographic locations with average neighbourhood pricing to identify premium rental zones and market variations.
