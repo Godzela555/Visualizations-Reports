@@ -15,7 +15,7 @@ Designed and deployed a complete Business Intelligence solution to analyze retai
 *   **Data Cleaning:** Engineered a cleaning node to resolve data type inconsistencies (e.g., converting `Operating_profit` from String to Integer) to ensure downstream data integrity.
 *   **Executive Dashboards (Metabase & BI Tools):** Developed interactive dashboards to track KPIs including $148M+ Total Revenue and 2.4M+ Total Units Sold. 
 *   **Business Insights:** Visualized revenue distribution across sales channels (Online, Outlet, In-store), evaluated top-performing retailers (West Gear, Foot Locker, Sports Direct), and tracked operating profit by geographical region.
-
+<img width="528" height="349" alt="Screenshot 2569-01-14 at 14 12 02" src="https://github.com/user-attachments/assets/3e5f1c5c-bfcf-48da-b329-4b4ea04bf299" />
 ---
 
 ## 📈 Exploratory Data Analysis & Visualization Projects
